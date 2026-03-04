@@ -18,6 +18,17 @@ El archivo incautaciones.csv contiene aproximadamente 12,836 registros con 10 at
 
 **Definición de la granularidad**
 
+## Modelo Dimensional
+
+| Dimensión              | Atributo 1              | Atributo 2      | Atributo 3        |
+|------------------------|------------------------|-----------------|------------------|
+| Especie dimensión      | Nom tipo especie       | Nombre común   | Nombre científico |
+| Ubicación dimensión    | Departamento           | Municipio      | Lugar decomiso    |
+| Autoridad dimensión    | Autoridad que incautó  |                 |                  |
+| Tiempo dimensión       | Año                    |                 |                  |
+| Fact Table             | Situación              | Cantidad        |                  |
+
+
 Un registro por evento de incautación o entrega de fauna silvestre, identificado por la combinación de año, ubicación (departamento + municipio + lugar), especie (tipo + nombre común + nombre científico) y autoridad interviniente.
 
 **Decisiones del Esquema Estrella**
