@@ -18,7 +18,7 @@ La incautación de animales en Colombia es crucial para combatir el tráfico ile
 
 **Dataset**
 
-El archivo incautaciones.csv contiene aproximadamente 12,836 registros con 10 atributos: año del evento, departamento, municipio, lugar del decomiso, situación (INCAUTACIÓN, ENTREGA VOLUNTARIA o HALLAZGO), autoridad que intervino, tipo de especie, nombre común, nombre científico y cantidad de individuos. El año venía serializado como float (2.008) y fue corregido durante la transformación. Se identificaron nulos en municipio (31), autoridad (34), tipo de especie (10), nombre común (738) y nombre científico (703), todos tratados en la fase de transform.
+El archivo incautaciones.csv es extraido de datos.gov.co el cual contiene aproximadamente 12,836 registros con 10 atributos: año del evento con un rango de fechas de 2008 a 2022, departamento, municipio, lugar del decomiso, situación (INCAUTACIÓN, ENTREGA VOLUNTARIA o HALLAZGO), autoridad que intervino, tipo de especie, nombre común, nombre científico y cantidad de individuos. El año venía serializado como float (2.008) y fue corregido durante la transformación. Se identificaron nulos en municipio (31), autoridad (34), tipo de especie (10), nombre común (738) y nombre científico (703), todos tratados en la fase de transform.
 
 
 ## Modelo Dimensional
