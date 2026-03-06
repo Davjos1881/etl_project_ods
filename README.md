@@ -98,7 +98,20 @@ Por ejemplo, para la dimension autoridad:
 
 **KPIs del Dashboard**
 
-El dashboard en Power BI responde a ocho preguntas: cuál es la especie con más individuos incautados, en qué municipio ocurren más eventos, qué autoridad lidera las intervenciones, cómo se distribuyen los eventos entre incautación, entrega voluntaria y hallazgo, cómo ha evolucionado el volumen de fauna incautada entre 2008 y 2021, cuál es el nombre común más frecuente, dónde se concentran los hallazgos por lugar, y cuál es el total acumulado de individuos registrados en el DW.
+El dashboard en Power BI responde a ocho preguntas o KPIs que serán importantes para la creación o implementación de estrategias para combatir el trafico de especies en los departamentos de Caldas y Risaralda, estas serán:
+
+1. ¿Cuál es la especie con más individuos incautados?
+2. ¿En qué municipio ocurren más eventos?
+3. ¿Qué autoridad lidera las intervenciones?
+4. ¿Cómo se distribuyen los eventos entre incautación, entrega voluntaria y hallazgo?
+5. ¿Cómo ha evolucionado el volumen de fauna incautada entre 2008 y 2021?
+6. ¿Cuál es el nombre común más frecuente?
+7. ¿Dónde se concentran los hallazgos por lugar?
+8. ¿Cuál es el total acumulado de individuos registrados en el DW?
+
+Cada una de ellas tendra una importancia que explicara su implementación dentro del BI, este seguira el orden respectivo antes dato a los KPIs
+
+1. 
 
 Ahora bien, para conectar el MySQL Workbench al Power BI necesitaremos un extra:
 
