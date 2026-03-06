@@ -142,6 +142,8 @@ Después de refrescar, el reporte mostrará los siguientes KPIs:
 
 -total de individuos incautados. 
 
+Los valores del reporte deben coincidir con el contenido de la base de datos incautaciones_dw tras ejecutar el pipeline completo con python main.py. Un ejemplo de como deberia lucir el reporte que se mostrara a continuacion.
+
 **KPIs del Dashboard**
 
 | Requerimientos | KPIs | Dimensiones | Valor |
@@ -155,7 +157,6 @@ Después de refrescar, el reporte mostrará los siguientes KPIs:
 | ¿Cuál es el lugar donde se concentran los hallazgos realizados? | Cantidad de hallazgos por lugar | Ubicación | Con este dato se puede conocer el lugar donde más hallazgos se están realizando. Esto es útil para tomar medidas de protección y reforzar el control en esas zonas. |
 | ¿Cuál es el total acumulado de individuos registrados en el DW? | Cantidad de individuos registrados | Especie | Mediante esto se puede conocer la cantidad de individuos que están siendo registrados y ver cómo esta problemática está afectando a los departamentos en cuestión para aplicar medidas de protección animal en las zonas. |
 
-Los valores del reporte deben coincidir con el contenido de la base de datos incautaciones_dw tras ejecutar el pipeline completo con python main.py. Un ejemplo de como deberia lucir el reporte:
 
 <img width="1439" height="809" alt="Captura de pantalla 2026-03-05 225552" src="https://github.com/user-attachments/assets/742d1e5c-5a2d-4902-95d6-f7b87eee44b9" />
 
