@@ -141,5 +141,5 @@ Después de refrescar, el reporte mostrará los siguientes KPIs:
 
 Los valores del reporte deben coincidir con el contenido de la base de datos incautaciones_dw tras ejecutar el pipeline completo con python main.py. Un ejemplo de como deberia lucir el reporte:
 
-<img width="1380" height="773" alt="image" src="https://github.com/user-attachments/assets/bd1fe104-ce5b-471f-af24-21000fb0b449" />
+<img width="1439" height="809" alt="Captura de pantalla 2026-03-05 225552" src="https://github.com/user-attachments/assets/742d1e5c-5a2d-4902-95d6-f7b87eee44b9" />
 
