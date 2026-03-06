@@ -20,6 +20,20 @@ La incautación de animales en Colombia es crucial para combatir el tráfico ile
 
 El archivo incautaciones.csv contiene aproximadamente 12,836 registros con 10 atributos: año del evento, departamento, municipio, lugar del decomiso, situación (INCAUTACIÓN, ENTREGA VOLUNTARIA o HALLAZGO), autoridad que intervino, tipo de especie, nombre común, nombre científico y cantidad de individuos. El año venía serializado como float (2.008) y fue corregido durante la transformación. Se identificaron nulos en municipio (31), autoridad (34), tipo de especie (10), nombre común (738) y nombre científico (703), todos tratados en la fase de transform.
 
+**KPIs del Dashboard**
+
+| Requerimientos | KPIs | Dimensiones | Valor |
+|---|---|---|---|
+| ¿Cuál es la especie con más individuos incautados? | Cantidad de especies incautadas | Especie | Por medio de esta se puede determinar cuál es la especie que en más peligro se encuentra dentro de los departamentos debido al alto número de individuos que ya se han incautado en el momento. |
+| ¿Cuál es el municipio en el que más incautaciones se han realizado? | Cantidad incautada por municipio | Ubicación | A través de estos datos se puede determinar cuál es el municipio al que más se le debe prestar atención y al que más medidas o restricciones se le debe aplicar para disminuir el problema. |
+| ¿Cuál es la autoridad que más incautaciones ha realizado o lidera las incautaciones? | Cantidad incautada por autoridad | Autoridad | Con estos datos se puede ver a cuáles de las autoridades competentes dar más crédito o a cuáles de ellas están teniendo un rendimiento menor para implementar medidas de mejora para esperar mejores resultados de su parte. |
+| ¿Cómo es la distribución de las incautaciones según su situación? | Cantidad de incautaciones según su situación | Especie | Mediante esto se pueden identificar cuál es la situación en la que mayormente se está haciendo el proceso de incautación. Esto permite identificar cómo es la tendencia de incautaciones y por cuál método optar o cuáles reforzar. |
+| ¿Cómo ha evolucionado el volumen de fauna incautada entre 2008 y 2021? | Cantidad de incautaciones entre 2008 y 2021 | Tiempo | Mediante esta información se busca conocer la cantidad de fauna incautada en ese rango de años y determinar cómo ha sido su evolución a lo largo de los años. Esto permite conocer la distribución y evaluar por qué se está realizando un incremento o reducción en la cantidad, evaluando posibles causas. |
+| ¿Cuál es el nombre común más frecuente que se ha incautado? | Cantidad incautada por nombre común del animal | Especie | Por medio de esta información se busca conocer el nombre del animal que más está siendo afectado por el proceso de tráfico de especies. Esto ayuda a generar planes de mitigación del problema como campañas de protección sobre animales afectados. |
+| ¿Cuál es el lugar donde se concentran los hallazgos realizados? | Cantidad de hallazgos por lugar | Ubicación | Con este dato se puede conocer el lugar donde más hallazgos se están realizando. Esto es útil para tomar medidas de protección y reforzar el control en esas zonas. |
+| ¿Cuál es el total acumulado de individuos registrados en el DW? | Cantidad de individuos registrados | Especie | Mediante esto se puede conocer la cantidad de individuos que están siendo registrados y ver cómo esta problemática está afectando a los departamentos en cuestión para aplicar medidas de protección animal en las zonas. |
+
+
 ## Modelo Dimensional
 **Definición de la granularidad**
 
@@ -96,22 +110,7 @@ Por ejemplo, para la dimension autoridad:
 
 <img width="883" height="338" alt="image" src="https://github.com/user-attachments/assets/412a51d0-31c6-4646-9ae7-5b824a47ad4d" />
 
-**KPIs del Dashboard**
 
-El dashboard en Power BI responde a ocho preguntas o KPIs que serán importantes para la creación o implementación de estrategias para combatir el trafico de especies en los departamentos de Caldas y Risaralda, estas serán:
-
-1. ¿Cuál es la especie con más individuos incautados?
-2. ¿En qué municipio ocurren más eventos?
-3. ¿Qué autoridad lidera las intervenciones?
-4. ¿Cómo se distribuyen los eventos entre incautación, entrega voluntaria y hallazgo?
-5. ¿Cómo ha evolucionado el volumen de fauna incautada entre 2008 y 2021?
-6. ¿Cuál es el nombre común más frecuente?
-7. ¿Dónde se concentran los hallazgos por lugar?
-8. ¿Cuál es el total acumulado de individuos registrados en el DW?
-
-Cada una de ellas tendra una importancia que explicara su implementación dentro del BI, este seguira el orden respectivo antes dato a los KPIs
-
-1. Por medio de esta se puede determinar cual es la especie que en mas peligro se encuentra dentro de los departamentos debido al alto numero de 
 
 Ahora bien, para conectar el MySQL Workbench al Power BI necesitaremos un extra:
 
