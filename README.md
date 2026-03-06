@@ -11,7 +11,9 @@ Por:
 **Objetivo del proyecto**
 
 Diseñar e implementar un pipeline ETL de producción sobre datos de incautaciones de fauna silvestre en los departamentos de Risaralda y Caldas, Colombia, en el marco del Objetivo de Desarrollo Sostenible 15 (Vida de Ecosistemas Terrestres). El sistema extrae datos crudos en CSV, los transforma aplicando limpieza y modelado dimensional, y los carga en un Data Warehouse MySQL para su análisis mediante dashboards en Power BI.
+
 El tráfico ilegal de especies en Colombia es un crimen ambiental y animal que implica la captura, comercialización, transporte ilícito de fauna y flora silvestre, siendo este uno de los negocios ilícitos más rentables del mundo. Esta actividad afecta gravemente la biodiversidad, aumenta la extinción de especies protegidas, reduce la poblacion de otras especies, aumenta la introduccion de especies exóticas al ecosistema que pueden llegar a ser perjudicial para el ecosistema local. Esta actividad tiende ser desarrollada para utilizar a las especies como mascotas, carne, huevos o por sus partes como lo son las pieles, a menudo esta actividad provoca alta mortalidad en los animales en cuestión.
+
 La incautación de animales en Colombia es crucial para combatir el tráfico ilegal y detener la crueldad animal, con el sin de asegurar el equilibrio de los ecosistemas y la protección de los seres vivos de nuestra región, es por ello que dentro del pais se generan normativas y programas de incautación como en el caso de la gobernacion de Risaralda y Caldas que son departamentos con gran presencia de tráfico ilegal de fauna silvestre, impulsado por la biodiversidad de la zona.
 
 **Dataset**
