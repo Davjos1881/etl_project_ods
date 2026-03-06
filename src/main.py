@@ -5,11 +5,17 @@ from extract import extract_incautaciones
 from transform import transform_data
 from load import save_dimensions_to_csv, load_to_dw
 
+<<<<<<< HEAD
 log_file = r'C:\Users\btigr\Documents\UAO\5\ETL\ETL_2026_1\proyecto_1\etl_project_ods-main\etl_project_ods-main\logs\log_file.txt'
 
 target_file = r'C:\Users\btigr\Documents\UAO\5\ETL\ETL_2026_1\proyecto_1\etl_project_ods-main\etl_project_ods-main\transformed'
 
 data_path = r'C:\Users\btigr\Documents\UAO\5\ETL\ETL_2026_1\proyecto_1\etl_project_ods-main\etl_project_ods-main\raw\incautaciones.csv'
+=======
+log_file = r'C:\Users\santa\Desktop\ETL_cositas\proyecto_etl_ods\logs\log_file.txt'
+target_file = r'C:\Users\santa\Desktop\ETL_cositas\proyecto_etl_ods\transformed'
+data_path = r'C:\Users\santa\Desktop\ETL_cositas\proyecto_etl_ods\raw\incautaciones.csv'
+>>>>>>> 701e10fe1c81ff506cec95086e0c4158bbb7db4e
 
 def main():
     # ETL process

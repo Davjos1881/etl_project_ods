@@ -1,5 +1,9 @@
 import pandas as pd
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 701e10fe1c81ff506cec95086e0c4158bbb7db4e
 # Dim tiempo
 def create_dim_tiempo(df):
 

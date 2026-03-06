@@ -157,6 +157,7 @@
 2026-03-03 16:22:33,Load phase started
 2026-03-03 16:22:34,Load phase complete
 2026-03-03 16:22:34,ETL process finished successfully
+<<<<<<< HEAD
 2026-03-05 21:29:17,Starting ETL process
 2026-03-05 21:29:17,Extract phase started
 2026-03-05 21:29:17,Extract phase complete
@@ -181,3 +182,5 @@
 2026-03-05 22:00:09,Load phase started
 2026-03-05 22:00:09,Load phase complete
 2026-03-05 22:00:09,ETL process finished successfully
+=======
+>>>>>>> 701e10fe1c81ff506cec95086e0c4158bbb7db4e
