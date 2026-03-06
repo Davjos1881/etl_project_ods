@@ -111,7 +111,7 @@ El dashboard en Power BI responde a ocho preguntas o KPIs que serán importantes
 
 Cada una de ellas tendra una importancia que explicara su implementación dentro del BI, este seguira el orden respectivo antes dato a los KPIs
 
-1. 
+1. Por medio de esta se puede determinar cual es la especie que en mas peligro se encuentra dentro de los departamentos debido al alto numero de 
 
 Ahora bien, para conectar el MySQL Workbench al Power BI necesitaremos un extra:
 
